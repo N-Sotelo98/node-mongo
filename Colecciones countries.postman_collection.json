@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "143545e7-2a52-41f6-82df-27d03e0bba37",
+		"name": "Colecciones countries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/countries/Argentina",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"country\":\"Argentina\",\n\"population\":9923,\n\"continent\":\"Europa\",\n\"lifeExpectancy\":43.8,\n\"purchasingPower\":974.58\n\t\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/countries/Argentina",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Argentina"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/countries/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"country\":\"Argelia\",\n\"population\":9923,\n\"continent\":\"Europa\",\n\"lifeExpectancy\":43.8,\n\"purchasingPower\":974.58\n\t\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/countries/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/countries/Argentina",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"country\":\"Argentina\",\n\"population\":9923,\n\"continent\":\"Europa\",\n\"lifeExpectancy\":43.8,\n\"purchasingPower\":974.58\n\t\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/countries/Argentina",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Argentina"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/countries",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/countries/Albania",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/countries/Albania",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Albania"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
